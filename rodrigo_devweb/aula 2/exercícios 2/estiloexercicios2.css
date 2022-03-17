@@ -1,0 +1,12 @@
+main {
+}
+
+#quadro {
+  border: 2px solid black;
+}
+.texto {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+  text-align: center;
+  color: navy;
+}
