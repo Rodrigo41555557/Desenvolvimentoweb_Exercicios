@@ -1,0 +1,18 @@
+main {
+}
+
+#nomesite {
+  color: blue;
+}
+
+#titulo {
+  font-weight: bold;
+}
+
+.borda {
+  border: 1px solid gray;
+}
+
+.pessoa {
+  padding: 20px;
+}
