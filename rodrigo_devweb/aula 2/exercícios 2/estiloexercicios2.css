@@ -1,6 +1,7 @@
 main {
 }
 
+/*exercicio 1*/
 #quadro {
   border: 2px solid black;
 }
@@ -9,4 +10,30 @@ main {
   font-size: 11px;
   text-align: center;
   color: navy;
+}
+
+/*exercicio 2*/
+
+
+.cabecalho{
+  width: 600px;
+  font-family: Arial;
+  font-size:100%;
+  background-color:#78b200;
+  color:white;
+  padding-bottom:15%;
+  text-align:center;
+}
+
+.colunas{
+  width: 600px;
+  font-family: Arial;
+  font-size:100%;
+  color: #0D5188;
+  padding-top:5%;
+  text-align:center;
+}
+
+.cinz{
+  background-color:lightgray;
 }
