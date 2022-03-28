@@ -82,4 +82,5 @@ li {
     box-sizing: border-box;
     float:left;
     border:3px solid #000;
+    margin:2%;
 }
