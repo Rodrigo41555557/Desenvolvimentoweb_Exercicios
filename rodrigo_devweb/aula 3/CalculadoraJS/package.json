@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies":{
+    "@babel/preset-env"
+    "babel-jest"
+  }
 }
