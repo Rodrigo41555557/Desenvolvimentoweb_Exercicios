@@ -1,0 +1,27 @@
+main{
+    display:flex;
+    align-items:center;
+}
+
+.container{
+    display:flex;
+    background-color: fuchsia;
+    padding:3%;
+    padding-left:45%;
+    padding-right:50%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.texto{
+    display:flex;
+    border:3px solid green;
+    padding:1%;  
+}
+.texto, #botao{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
