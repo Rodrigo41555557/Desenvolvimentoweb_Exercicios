@@ -1,0 +1,9 @@
+npm init vue@latest
+
+v-show
+v-if, v-else
+v-for
+v-bind, v-on
+v-model
+v-on => @
+v-bind => :

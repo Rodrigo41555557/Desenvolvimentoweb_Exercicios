@@ -1,12 +1,5 @@
-const soma = require(`./soma`);
-const sub = require(`./sub`);
-const mult = require(`./mult`);
-const div = require(`./div`);
+import { delta } from "./delta"
 
-it('Soma de dois positivos', () => {
-    expect(soma(2,4)).toBe(6)
+it (`descobrindo o delta de x`, () => {
+    expect(delta(2,8,-24)).toBe(256);
 })
-
-it('Subtracao', () => {
-    expect(soma(9,3)).toBe(2)
-}) 
