@@ -1,0 +1,69 @@
+1) crie um projeto
+    npm init vue@latest
+    se vc adicionar um ponto, ele pode criar no mesmo diretório sem criar um novo dentro dele
+    npm init vue@latest .
+    
+project name: joao-pe-de-feijao
+instalar apenas eslint e prettier
+
+(se quiser instalar o volar(vue language features) baixe pelo explorador do vscode)
+
+2) acesso a pasta e instalo as dependencias
+    cd joao-pe-de-feijao
+  npm install
+  npm run lint
+  
+    deve estar numa pasta com o arquivo package.json
+    
+
+3) executar o vue/projeto
+    npm run dev
+    ou (npm run dev --port:xxxx)
+    
+------------------------------------------------
+se o visual studio code for de uma versão anterior a 1.66.0
+sudo apt update
+sudo apt install code 
+
+extensáo vscode
+    eslint
+    prettier
+    volar
+    
+    desabilitar vetur
+    
+habilitar nas configuracoes
+    format on save
+    formatter = eslint
+--------------------------------------------------------------------------------------------
+fazer no minimo 3 vezes ou mais
+
+no arquivo./src/App.vue
+
+o index so carrega, temos o arquivo main.js 
+
+vamos limpar o App.vue
+e deixar apenas
+<script></script>
+<template>
+    <h1> oi mundo</h1>
+</template>
+<style></style>
+
+fazer isso duas vezes tb
+
+5) fazer um header e um main com um texto principal
+    porém vcs vao tentar trazer alguma das coisas de CSS.
+
+no style:
+
+header {
+  background-color: aqua;
+}
+header {
+  background-color: fuchsia;
+  padding: 30px;
+}
+    
+    
+vcs nao devem criar um body dentro no App.vue

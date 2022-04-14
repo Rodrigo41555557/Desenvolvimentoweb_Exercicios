@@ -10,9 +10,9 @@ import TheWelcome from './components/TheWelcome.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
-  <div v-show="bomdia">olaaa</div>
+    <div v-show="bomdia">olaaa</div>
   </header>
-  <main>npm
+  <main>
     <TheWelcome />
   </main>
 </template>
@@ -40,13 +40,13 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: fuchsia;
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsl(315, 71%, 21%);
   }
 }
 
