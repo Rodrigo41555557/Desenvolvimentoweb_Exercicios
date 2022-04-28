@@ -13,6 +13,7 @@ export default {
     <BlocoNovo class="classeNova"/>
     <BlocoNovo class="classeNova"/>
     <BlocoNovo class="classeNova"/>
+    <BlocoNovo class="classeNova"/>
   </main>
 </template>
 <style></style>

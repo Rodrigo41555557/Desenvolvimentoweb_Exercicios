@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src ="bhaskara.js"></script>
+      <script src="bhaskara.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <form class="container">
-        <input type="text" id="a"> valor de A
-        <input type="text" id="b"> valor de B
-        <input type="text" id="c"> valor de C
-        <input type="submit" value="Calcular" id="botao" onclick=(bhaskara())>
-    </form>
-    <div id="secao"></div>
 
-    <script type="module" src="js/bhaskara.js"></script>
+    <div class="container">
+        <input type="number" id="a" name="A"> valor de A
+        <input type="number" id="b" name="B"> valor de B
+        <input type="number" id="c" name="C"> valor de C
+        <input type="submit" id="botao" name="enviar" value="calcular" onclick="calculo()">
+        <br>
+        <div id="solucao"></div>
+    </div>
+    
+
+  
+
 </body>
 </html>
