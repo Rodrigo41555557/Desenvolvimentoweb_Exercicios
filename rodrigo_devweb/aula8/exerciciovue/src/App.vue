@@ -6,6 +6,8 @@ export default {
 </script>
 
 <template>
-  <h1>ola</h1>
-  <OComponente />
+  <main>
+    <h1>ola</h1>
+    <OComponente />
+  </main>
 </template>
