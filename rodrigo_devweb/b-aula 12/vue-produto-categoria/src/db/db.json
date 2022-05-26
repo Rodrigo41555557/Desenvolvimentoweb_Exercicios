@@ -1,0 +1,7 @@
+{
+    "category": [
+        {"id": 1, "description": "Sci-fi"},
+        {"id": 2, "description": "Terror"},
+        {"id": 3, "description": "Drama"}
+    ]
+}
