@@ -27,6 +27,14 @@
     {
       "id": 7,
       "description": "Suspense"
+    },
+    {
+      "id": 8,
+      "description": "Musical"
+    },
+    {
+      "id": 9,
+      "description": "Documentário"
     }
   ]
 }

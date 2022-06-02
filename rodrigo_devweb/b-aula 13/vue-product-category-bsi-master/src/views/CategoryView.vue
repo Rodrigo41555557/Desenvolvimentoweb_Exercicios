@@ -43,37 +43,39 @@ export default {
 };
 </script>
 <template>
-  <h1>Cadastro de Categorias</h1>
-  <div class="category-form">
-    <input type="text" v-model="currentCategory.description" />
-    <button @click="save">Adicionar</button>
-  </div>
-  <div class="category-list">
-    <table class="table">
-      <thead>
-        <tr>
-          <th class="text-left">
-            <span> <h2>ID</h2> </span>
-          </th>
-          <th class="text-left">
-            <span> <h2>Descrição</h2> </span>
-          </th>
-          <th class="text-left">
-            <span> <h2>Ações</h2> </span>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="category of categories" :key="category.id">
-          <td>{{ category.id }}</td>
-          <td>{{ category.description }}</td>
-          <td>
-            <button>Update</button>
-            <button @click="deleteItem(category.id)">Delete</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="background-categ">
+    <h1 class="titulo">Cadastro de Categorias</h1>
+    <div class="category-form">
+      <input type="text" v-model="currentCategory.description" />
+      <button @click="save" id="butao">Adicionar</button>
+    </div>
+    <div class="category-list">
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="text-left">
+              <span> <h2>ID</h2> </span>
+            </th>
+            <th class="text-left">
+              <span> <h2>Descrição</h2> </span>
+            </th>
+            <th class="text-left">
+              <span> <h2>Ações</h2> </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="category of categories" :key="category.id">
+            <td>{{ category.id }}</td>
+            <td>{{ category.description }}</td>
+            <td>
+              <button>Update</button>
+              <button @click="deleteItem(category.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -106,18 +108,22 @@ export default {
 table {
   /* display: table; */
   border-collapse: separate;
-  border-spacing: 2px;
   border-color: gray;
   width: 100%;
+  border: 4px solid #000;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #000;
 }
 
 th {
   border-bottom: 2px solid #444;
-  text-align: left;
+  text-align: center;
 }
 
 td {
   padding: 10px;
+  border: 2px solid #000;
 }
 
 thead tr {
@@ -127,5 +133,23 @@ thead tr {
 
 tbody tr:nth-child(odd) {
   background-color: #c3c3c3;
+}
+tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.background-categ {
+  background-color: #ffffff;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+#butao {
+  background-color: #72083d;
 }
 </style>

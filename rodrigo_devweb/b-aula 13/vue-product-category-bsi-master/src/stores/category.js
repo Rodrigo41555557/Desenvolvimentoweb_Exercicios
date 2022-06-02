@@ -26,7 +26,7 @@ export const useCategoryStore = defineStore({
           category
         );
         this.categories.push(data);
-        return Promise.resolve();
+        return Promise.resolve("Categoria adicionada com sucesso");
       } catch (e) {
         console.error(e);
         return Promise.reject(e);

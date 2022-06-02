@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 header {
   height: 10%;
-  background: linear-gradient(to left, #72083d 0%, #165c74 100%);
+  background: linear-gradient(to top, #72083d 0%, #165c74 50%);
   color: whitesmoke;
   font-size: 1.5em;
   display: flex;
@@ -31,5 +31,6 @@ header {
 
 main {
   padding: 10px;
+  background: #72083d;
 }
 </style>
