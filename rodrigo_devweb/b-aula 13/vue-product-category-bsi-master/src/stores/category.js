@@ -14,7 +14,7 @@ export const useCategoryStore = defineStore({
         return Promise.resolve();
       } catch (e) {
         console.error(e);
-        if (e.response.status === 404){
+        if (e.response.status === 404) {
           return Promise.reject("'category' não encontrada!");
         }
       }
@@ -32,14 +32,23 @@ export const useCategoryStore = defineStore({
         return Promise.reject(e);
       }
     },
+    async updateCategory(category_id) {
+      try {
+        await axios.update(`http://localhost:4000/category/${category_id}`);
+        await this.getAllCategories();
+        return Promise.resolve();
+      } catch (e) {
+        return Promise.reject("Erro ao alterar");
+      }
+    },
     async deleteCategory(category_id) {
-      try{
+      try {
         await axios.delete(`http://localhost:4000/category/${category_id}`);
         await this.getAllCategories();
         return Promise.resolve();
       } catch (e) {
         return Promise.reject("Erro ao excluir");
       }
-    }
+    },
   },
 });

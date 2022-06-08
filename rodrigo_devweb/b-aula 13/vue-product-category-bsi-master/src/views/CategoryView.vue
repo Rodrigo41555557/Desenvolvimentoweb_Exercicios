@@ -20,16 +20,25 @@ export default {
       "getAllCategories",
       "saveCategory",
       "deleteCategory",
+      "updateCategory",
     ]),
     save() {
       this.saveCategory(this.currentCategory);
+    },
+    async updateItem(category_id) {
+      try {
+        await this.updateCategory(category_id);
+        alert("Categoria alterada com sucesso");
+      } catch (e) {
+        alert("That's too bad! erro ao alterar");
+      }
     },
     async deleteItem(category_id) {
       try {
         await this.deleteCategory(category_id);
         alert("item excluído com sucesso.");
       } catch (e) {
-        alert("That's too bad! erro náo excluido");
+        alert("That's too bad! erro ao excluir");
       }
     },
   },
@@ -69,7 +78,7 @@ export default {
             <td>{{ category.id }}</td>
             <td>{{ category.description }}</td>
             <td>
-              <button>Update</button>
+              <button @click="updateItem(category.id)">Update</button>
               <button @click="deleteItem(category.id)">Delete</button>
             </td>
           </tr>
@@ -79,7 +88,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .category-form input {
   width: 75%;
   height: 40px;
