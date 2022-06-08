@@ -1,0 +1,2 @@
+este arquivo tem o propósito de separar a 
+pasta de aula e o projeto vue contido nela
