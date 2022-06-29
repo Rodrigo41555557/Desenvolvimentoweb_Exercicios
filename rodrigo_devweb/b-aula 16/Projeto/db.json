@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Terror"
+    },
+    {
+      "id": 3,
+      "description": "Ação"
+    },
+    {
+      "id": 11,
+      "description": "Drama"
+    },
+    {
+      "id": 12,
+      "description": "SciFi"
+    },
+    {
+      "id": 13,
+      "description": "Comédia"
+    },
+    {
+      "id": 14,
+      "description": "Romance"
+    },
+    {
+      "description": "Luta",
+      "id": 15
+    },
+    {
+      "id": 16,
+      "description": "Nova"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "description": "Teste"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Top Gun!",
+      "categoryId": 3,
+      "genreId": 1
+    },
+    {
+      "id": 2,
+      "name": "Novo Filme",
+      "categoryId": 11,
+      "genreId": 1
+    }
+  ]
+}

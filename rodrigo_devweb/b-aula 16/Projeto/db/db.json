@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Terrores"
+    },
+    {
+      "id": 3,
+      "description": "Ação"
+    },
+    {
+      "id": 12,
+      "description": "Sci-Fi"
+    },
+    {
+      "id": 13,
+      "description": "Comédia"
+    },
+    {
+      "id": 15,
+      "description": "Documentário"
+    },
+    {
+      "id": 17,
+      "description": "Musical"
+    },
+    {
+      "id": 18,
+      "description": "Drama"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "description": "Teste"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Top Gun!",
+      "categoryId": 3,
+      "genreId": 1
+    },
+    {
+      "id": 2,
+      "name": "The Chickepede",
+      "categoryId": 1,
+      "category": {}
+    },
+    {
+      "id": 3,
+      "name": "Fornari",
+      "categoryId": 15,
+      "category": {}
+    },
+    {
+      "name": "In The G",
+      "categoryId": 17,
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "teste",
+      "categoryId": 12,
+      "category": {}
+    }
+  ]
+}
