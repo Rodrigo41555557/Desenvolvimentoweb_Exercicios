@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Livros de Dan Brown"
+    },
+    {
+      "id": 2,
+      "description": "Livros de Renato Sales IV"
+    },
+    {
+      "id": 3,
+      "description": "On God?"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "Moderna",
+      "site": "<a href='https://www.moderna.com.br/'>Site</a>"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "I am A God",
+      "author": "Kanye West",
+      "quantity": "30",
+      "price": "45,99 R$"
+    },
+    {
+      "id": 2,
+      "title": "Origem",
+      "author": "Dan Brown",
+      "quantity": "12",
+      "price": "62,99 R$"
+    },
+    {
+      "id": 3,
+      "title": "Rocking all my dreams",
+      "author": "Paulo Baron",
+      "quantity": 17,
+      "price": "35,00 R$"
+    },
+    {
+      "id": 4,
+      "title": "What's My Name",
+      "author": "Richard Alberto",
+      "quantity": 45,
+      "price": "39,40 R$"
+    },
+    {
+      "id": 5,
+      "title": "O Livro de Renato",
+      "author": "Golando Ricardo",
+      "quantity": 45,
+      "price": "39,99 R$"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Dan Brown"
+    },
+    {
+      "id": 2,
+      "name": "Renato Sales IV"
+    },
+    {
+      "id": 3,
+      "name": "Kanye West"
+    }
+  ],
+  "cart": []
+}

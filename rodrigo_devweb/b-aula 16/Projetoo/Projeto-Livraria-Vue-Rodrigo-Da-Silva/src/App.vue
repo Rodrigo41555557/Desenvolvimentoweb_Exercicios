@@ -5,8 +5,7 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <header>
     <RouterLink to="/">Home</RouterLink> |
-    <RouterLink to="/livros">Livros</RouterLink> |
-    <RouterLink to="/login">Login</RouterLink>
+    <RouterLink to="/livros">Livros</RouterLink>
   </header>
   <main>
     <RouterView />
@@ -17,7 +16,6 @@ import { RouterLink, RouterView } from "vue-router";
 @import "@/assets/base.css";
 
 #app {
-  height: 100vh;
   background-color: #bd89a3;
 }
 
