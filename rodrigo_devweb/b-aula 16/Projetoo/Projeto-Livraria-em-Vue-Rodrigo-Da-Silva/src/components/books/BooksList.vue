@@ -25,6 +25,7 @@ export default {
     },
     async buyItem(book){
       try{
+
         await this.buyBook(book.id, book.quantity);
       }
     }
